@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_FinetuningVsPrompting
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'Fine-tuning vs prompting comparison'
+
+Keywords: finetuning, prompting, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_AgenticRiskSurface, NextWord_ApplicationsTree, NextWord_CostQualityLatency, NextWord_MultimodalFusion, NextWord_RAGPipeline, NextWord_RLHFPipeline, NextWord_SamplingStrategies
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/finetuning_vs_prompting.pdf
+
+Example: 'The figure as it appears on Hour 4, Applications.'

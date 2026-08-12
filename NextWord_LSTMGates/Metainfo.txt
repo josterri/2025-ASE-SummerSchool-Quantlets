@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_LSTMGates
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'The cell state as a highway; gates are learned taps on it.'
+
+Keywords: lstm, gates, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_AttentionHeatmap, NextWord_MultiheadPatterns, NextWord_OneHotVsDense, NextWord_PositionalEncoding, NextWord_QKVFlow, NextWord_RNNMemoryDecay, NextWord_WordVectorSpace
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/lstm_gates.pdf
+
+Example: 'The figure as it appears on Hour 2, The Machine.'

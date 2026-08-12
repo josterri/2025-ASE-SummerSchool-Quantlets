@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_RAGPipeline
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'RAG pipeline. The retrieval loop stays visually distinct from a plain LLM call'
+
+Keywords: rag, pipeline, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_AgenticRiskSurface, NextWord_ApplicationsTree, NextWord_CostQualityLatency, NextWord_FinetuningVsPrompting, NextWord_MultimodalFusion, NextWord_RLHFPipeline, NextWord_SamplingStrategies
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/rag_pipeline.pdf
+
+Example: 'The figure as it appears on Hour 4, Applications.'

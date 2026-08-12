@@ -1,0 +1,27 @@
+# Shared matplotlib style for The Next Word Problem figures (2026 edition).
+# Palette matches course.sty and the course site: claret, teal, gold, ink.
+axes.prop_cycle: cycler('color', ['990F3D', '0D7680', '9C6A10', '262A33', '66605A'])
+figure.facecolor: white
+axes.facecolor: white
+axes.edgecolor: 66605A
+axes.labelcolor: 262A33
+axes.grid: True
+grid.color: D9C5AC
+grid.linewidth: 0.6
+grid.alpha: 0.6
+axes.spines.top: False
+axes.spines.right: False
+xtick.color: 66605A
+ytick.color: 66605A
+text.color: 262A33
+font.size: 9
+axes.titlesize: 10
+axes.titleweight: bold
+axes.labelsize: 9
+xtick.labelsize: 8
+ytick.labelsize: 8
+legend.fontsize: 8
+legend.frameon: False
+lines.linewidth: 2.0
+savefig.bbox: tight
+savefig.dpi: 300

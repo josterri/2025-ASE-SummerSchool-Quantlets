@@ -1,0 +1,21 @@
+Name of QuantLet: NextWord_WordVectorSpace
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'Word vector space visualization'
+
+Keywords: word, vector, space, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_AttentionHeatmap, NextWord_LSTMGates, NextWord_MultiheadPatterns, NextWord_OneHotVsDense, NextWord_PositionalEncoding, NextWord_QKVFlow, NextWord_RNNMemoryDecay
+
+Datafile: figures_src/toy_desk_numbers.json
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/word_vector_space.pdf
+
+Example: 'The figure as it appears on Hour 2, The Machine.'

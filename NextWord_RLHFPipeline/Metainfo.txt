@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_RLHFPipeline
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'RLHF in three stages left to right, human preference data enters at stage (b) only'
+
+Keywords: rlhf, pipeline, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_AgenticRiskSurface, NextWord_ApplicationsTree, NextWord_CostQualityLatency, NextWord_FinetuningVsPrompting, NextWord_MultimodalFusion, NextWord_RAGPipeline, NextWord_SamplingStrategies
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/rlhf_pipeline.pdf
+
+Example: 'The figure as it appears on Hour 4, Applications.'

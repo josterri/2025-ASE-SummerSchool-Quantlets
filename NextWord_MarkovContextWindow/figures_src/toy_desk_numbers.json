@@ -1,0 +1,85 @@
+{
+  "corpus": {
+    "tokens": 342,
+    "vocabulary": 123,
+    "sentences": 50
+  },
+  "desk1_unigram": {
+    "context": "none",
+    "p_mat": 0.0234,
+    "rank_mat": 7,
+    "top": [
+      {
+        "word": "the",
+        "p": 0.2749
+      },
+      {
+        "word": "on",
+        "p": 0.0585
+      },
+      {
+        "word": "sat",
+        "p": 0.038
+      },
+      {
+        "word": "cat",
+        "p": 0.0322
+      },
+      {
+        "word": "a",
+        "p": 0.0292
+      }
+    ],
+    "entropy_bits": 5.45
+  },
+  "desk2_bigram": {
+    "context": "the",
+    "p_mat": 0.0851,
+    "top": [
+      {
+        "word": "cat",
+        "p": 0.0851
+      },
+      {
+        "word": "mat",
+        "p": 0.0851
+      },
+      {
+        "word": "sea",
+        "p": 0.0532
+      },
+      {
+        "word": "morning",
+        "p": 0.0426
+      },
+      {
+        "word": "dog",
+        "p": 0.0319
+      }
+    ],
+    "entropy_bits": 5.31
+  },
+  "desk3_fourgram": {
+    "context": "sat on the",
+    "p_mat": 0.6154,
+    "top": [
+      {
+        "word": "mat",
+        "p": 0.6154
+      },
+      {
+        "word": "chair",
+        "p": 0.1538
+      },
+      {
+        "word": "floor",
+        "p": 0.1538
+      },
+      {
+        "word": "sofa",
+        "p": 0.0769
+      }
+    ],
+    "entropy_bits": 1.55
+  }
+}

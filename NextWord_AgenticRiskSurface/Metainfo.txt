@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_AgenticRiskSurface
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'Exposed surface widens as autonomy grows, structural, not quantitative'
+
+Keywords: agentic, risk, surface, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_ApplicationsTree, NextWord_CostQualityLatency, NextWord_FinetuningVsPrompting, NextWord_MultimodalFusion, NextWord_RAGPipeline, NextWord_RLHFPipeline, NextWord_SamplingStrategies
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/agentic_risk_surface.pdf
+
+Example: 'The figure as it appears on Hour 4, Applications.'

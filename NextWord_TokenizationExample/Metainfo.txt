@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_TokenizationExample
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'Subword tokenization example'
+
+Keywords: tokenization, example, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_BERTVsGPT, NextWord_ComputeRequirements, NextWord_EmergentAbilities, NextWord_InferenceComputeScaling, NextWord_MMLUSaturation, NextWord_PretrainFinetuneFlow, NextWord_ScalingLaws
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/tokenization_example.pdf
+
+Example: 'The figure as it appears on Hour 3, The Modern Era.'

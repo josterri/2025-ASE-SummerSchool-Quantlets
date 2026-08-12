@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_OneHotVsDense
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'Contrast a one-hot vector against a dense embedding.'
+
+Keywords: one, hot, dense, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_AttentionHeatmap, NextWord_LSTMGates, NextWord_MultiheadPatterns, NextWord_PositionalEncoding, NextWord_QKVFlow, NextWord_RNNMemoryDecay, NextWord_WordVectorSpace
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/one_hot_vs_dense.pdf
+
+Example: 'The figure as it appears on Hour 2, The Machine.'

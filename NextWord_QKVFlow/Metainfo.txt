@@ -1,0 +1,19 @@
+Name of QuantLet: NextWord_QKVFlow
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'One token, three learned projections, scaled dot-product attention.'
+
+Keywords: qkv, flow, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_AttentionHeatmap, NextWord_LSTMGates, NextWord_MultiheadPatterns, NextWord_OneHotVsDense, NextWord_PositionalEncoding, NextWord_RNNMemoryDecay, NextWord_WordVectorSpace
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/qkv_flow.pdf
+
+Example: 'The figure as it appears on Hour 2, The Machine.'
