@@ -21,8 +21,9 @@ That claim is measured rather than asserted. The course build runs all 28
 folders and requires each figure to come out byte-identical to the one printed
 on the slide.
 
-Because they are generated, a change made here is lost on the next publish.
-Corrections belong in the course repository.
+Because they are generated, a change made here is lost on the next publish. If
+something looks wrong, open an issue on this repository and the fix will be made
+where the folders come from.
 
 ## Course site
 
