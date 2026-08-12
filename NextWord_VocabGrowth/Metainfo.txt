@@ -1,0 +1,21 @@
+Name of QuantLet: NextWord_VocabGrowth
+
+Published in: The Next Word Problem, ASE Summer School 2026
+
+Description: 'Possible n-grams explode; the corpus cannot keep up.'
+
+Keywords: vocab, growth, language model, next word prediction, teaching, visualization, beamer
+
+Author: Joerg Osterrieder
+
+Submitted: Wed, August 12 2026
+
+See also: NextWord_MarkovContextWindow, NextWord_PerplexityLadder, NextWord_ToyCorpusDistribution
+
+Datafile: figures_src/toy_desk_numbers.json
+
+Input: none. This folder carries the course palette and style sheet it needs, under figures_src/, so it runs on its own.
+
+Output: figures/vocab_growth.pdf
+
+Example: 'The figure as it appears on Hour 1, The Task.'
