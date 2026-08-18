@@ -29,13 +29,15 @@ warnings.filterwarnings('ignore')
 
 import sys; sys.path.insert(0, 'figures_src')
 from palette import (use_course_style, CYCLE, CLARET, TEAL, GOLD, INK,
-                     SOFT, PAPER, RULE, sequential_cmap, diverging_cmap)
+                     SOFT, PAPER, RULE, sequential_cmap, diverging_cmap,
+                     figpath, room_size, base_font_size, room_pt, room_pick, ROOM,
+                     ROOM_SLOT_IN, ROOM_SLOT_CAPTIONED_IN)
 use_course_style()
 sns.set_palette(CYCLE)
 
 
 # Common settings
-FONT_SIZE = 8
+FONT_SIZE = base_font_size(8)
 plt.rcParams.update({
     'font.size': FONT_SIZE,
     'axes.labelsize': FONT_SIZE,
@@ -62,22 +64,32 @@ def create_toy_corpus_distribution():
     words = [t["word"] for t in d["top"]]
     probs = [t["p"] * 100 for t in d["top"]]
 
-    fig, ax = plt.subplots(figsize=(6.4, 3.2))
+    # Room edition: the full slot. At 4.9 inches the four value labels sat 8pt
+    # apart and read as "15.4%15.4%"; the extra 0.9 inch buys 24pt of gap.
+    # ROOM_SLOT_CAPTIONED_IN, not ROOM_SLOT_IN: the title goes in the frame
+    # heading and the toy-corpus provenance line is the caption, so this saved
+    # at 138.2pt against the 128.1pt two caption lines leave.
+    fig, ax = plt.subplots(
+        figsize=room_size(*room_pick((6.4, 3.2), ROOM_SLOT_CAPTIONED_IN)))
     colors = [CLARET if w == "mat" else TEAL for w in words]
     bars = ax.bar(words, probs, color=colors, edgecolor=INK, linewidth=0.6)
     for bar, pr in zip(bars, probs):
         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1.5,
                 "{:.1f}%".format(pr), ha="center", va="bottom",
                 fontsize=FONT_SIZE, fontweight="bold")
-    ax.set_ylabel("P(word | sat on the)")
+    # Rotated, so the character count is a height: 20 characters is 215pt in a
+    # 176pt slot and the page grew to 190pt. Broken in two rather than cut, since
+    # every word here is the condition being conditioned on.
+    ax.set_ylabel(room_pick("P(word | sat on the)", "P(word |\nsat on the)"))
     ax.set_ylim(0, max(probs) * 1.25)
     ax.set_title("Generation 3: the blank predicted by counting 4-grams")
     note = "computed on the toy corpus: {} tokens, {} sentences".format(
         data["corpus"]["tokens"], data["corpus"]["sentences"])
     ax.text(0.98, 0.95, note, transform=ax.transAxes, ha="right", va="top",
             fontsize=FONT_SIZE - 2, style="italic", color=SOFT)
-    plt.tight_layout()
-    plt.savefig("figures/toy_corpus_distribution.pdf")
+    if not ROOM:
+        plt.tight_layout()  # see LAYOUT ORDER at the top of this file
+    plt.savefig(figpath("toy_corpus_distribution"))
     plt.close()
     print("Created: toy_corpus_distribution.pdf")
 
